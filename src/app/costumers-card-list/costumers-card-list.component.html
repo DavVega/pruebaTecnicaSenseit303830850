@@ -1,0 +1,27 @@
+
+<mat-card *ngFor="let costumer of Costumers" class="costumer-card mat-elevation-z10">
+
+    <mat-card-header>
+
+    <mat-card-title>{{costumer.contactName}}</mat-card-title>
+
+    </mat-card-header>
+
+    <mat-card-content>
+        <p><b>Cliente: </b>{{costumer.id}}</p>
+        <p><b>Direccion: </b>{{costumer.address}}</p>
+        <p><b>Correo postal: </b>{{costumer.postalCode}}</p>
+        <p><b>Telefono: </b>{{costumer.phone}} / <b>Fax:</b> {{costumer.fax}} </p>
+    
+    </mat-card-content>
+
+    <mat-card-actions class="costumer-actions">
+
+        <button mat-button class="mat-raised-button mat-accent"
+                (click)="ViewOrder(costumer)">
+            VER ORDENES
+        </button>
+
+    </mat-card-actions>
+
+</mat-card>

@@ -1,0 +1,48 @@
+
+body {
+    margin: 0;
+}
+
+main {
+    margin: 30px;
+}
+
+/* ----------------------------
+    navbar buttons
+-------------------------------*/
+.menu-button {
+    padding-left: 2em;
+  }
+  .navbar-img {
+    height: 80px;
+    width: 100%;
+  }
+  .navbar-button {
+    min-width: min-content;
+    color: white;
+  }
+  .navbar-button-icon {
+    padding-left: 0.3em;
+    min-width: min-content;
+    color: white;
+  }
+  .navbar-button-icon2 {
+    padding-left: 1em;
+    min-width: min-content;
+    color: white;
+  }
+  
+  .menu-item,
+  .menu-item-close {
+    width: 100%;
+    height: 90%;
+  }
+  
+  .menu-item:hover {
+    color: #1578bb;
+  }
+  
+  .menu-item-close:hover {
+    color: red;
+  }
+  
